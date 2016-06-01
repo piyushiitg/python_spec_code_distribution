@@ -1,0 +1,11 @@
+1. Install rpmbuild using command:
+ a. yum install rpm-build rpmdevtools
+ b. rpmdev-setuptree
+ 
+2. Create source tree using comand:
+      mkdir -p ~/rpm/{BUILD,RPMS,SOURCES,SPECS,SRPMS,tmp}
+ 
+3. Create tar file of your source directory and copy it into SOURCES directory.
+
+4. Create  .spec file and copy into SPECS directory.
+
